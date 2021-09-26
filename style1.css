@@ -1,0 +1,127 @@
+.tophead{
+    width: 100%;
+    height: 65px;
+    background: #1976d2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headlogo{
+    color: #fff;
+    font-size: 1.3rem;
+    
+    padding-left: 0px;
+}
+.headlogo img{
+    height: 10%;
+}
+.menuicon{
+    font-size: 25px;
+    cursor: pointer;
+    color: #fff;
+    padding-right: 50px;
+}
+.sidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: #272634;
+    overflow: hidden;
+    overflow-y: scroll;
+    transition: all 0.5s;
+    
+}
+.imag,img{
+    border-radius: 50%;
+    padding-left: 10px;
+}
+.sidenav a{
+    text-decoration: none;
+    font-size: 15px;
+    color:#fff;
+    display: block;
+    padding: 20px 0 20px 20px;
+}
+.sidenav a:hover{
+    color: rgba(255,255,255,0.7);
+}
+.closenav{
+    position: absolute;
+    top: 0;
+    right: 25px;
+}
+.sidenav .drop{
+    text-decoration: none;
+    font-size: 15px;
+    color:#fff;
+    display: block;
+    padding: 20px 0 20px 20px;
+    background:none;
+    border: none;
+    text-align: left;
+      cursor: pointer;
+  outline: none;
+  width: 100%;
+}
+.drop-contain{
+    display: none;
+    padding-left: 30px;
+    
+  background-color: #262626;
+}
+
+
+.glyphicon-menu-down{
+      float: right;
+  padding-right: 8px;
+}
+td,th{
+    text-align: center;
+}
+.delete{
+    float: right;
+    
+}
+.delete-btn{
+    background: none;
+    border: none;
+    color: red;
+}
+.b{
+    background-image: url("background1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    position: static;
+	padding: 10px 0;
+	background-size: cover;
+	background: #101010;
+	bottom: 0px;
+	margin-top: 10px;
+	width: 100%;
+
+}
+.cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color:#9d9d9d;
+}
+
+
+textarea{
+    resize: none;
+}
+.table{
+    overflow:scroll;
+}
+
+.logo_img{
+    height: 12rem;
+    width: 12rem;
+}

@@ -1,0 +1,17 @@
+img{
+    border-radius: 50%;
+    
+}
+.dec{
+    text-decoration: none;
+}
+    
+.b{
+    background-image: url("background1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.profile{
+    margin-top: 30px;
+    text-align: center;
+}
